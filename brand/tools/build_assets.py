@@ -359,20 +359,20 @@ def build():
 
     hero("brand/assets/hero-banner.svg", "PROJECT", "Project name",
          ["What the handheld has", "after you unplug."])
-    hero("docs/hero.svg", "J-PILOT CONDUIT", "Feeds to Plucker",
-         ["Today's RSS, Atom, and Gemsub,", "installed as a Plucker document."])
+    hero("docs/hero.svg", "J-PILOT CONDUIT", "VersaMail Conduit",
+         ["IMAP inbox and SMTP outbox,", "synced to VersaMail at HotSync."])
 
     social("brand/assets/social-preview.svg", "PROJECT", "Project name",
            ["One sentence on what the", "handheld can do after a sync."], "CONTENTS")
-    social(".github/social-preview.svg", "J-PILOT CONDUIT", "Feeds to Plucker",
-           ["Today's RSS, Atom, and Gemsub,", "packed for Plucker at HotSync."], "FEEDS TODAY")
+    social(".github/social-preview.svg", "J-PILOT CONDUIT", "VersaMail Conduit",
+           ["IMAP inbox and SMTP outbox,", "synced to VersaMail at HotSync."], "VERSAMAIL")
 
     placeholder("brand/assets/placeholder-frame.svg",
                 ["Say what capture belongs here.", "This frame is not a screenshot."])
     placeholder("docs/placeholder-jpilot.svg",
-                ["The Feeds to Plucker panel in J-Pilot.", "Not a window capture."])
+                ["The VersaMail Conduit panel in J-Pilot.", "Not a window capture."])
     placeholder("docs/placeholder-device.svg",
-                ["J-Pilot RSS Today open in Plucker.", "A photograph from the Tungsten T3 test goes here."])
+                ["VersaMail open on Palm OS.", "A device photograph goes here."])
 
 
 if __name__ == "__main__":
